@@ -1,0 +1,98 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background: url('annie-spratt-wuc-KEIBrdE-unsplash.jpg'), linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6));
+    background-position: center;
+    background-size: cover;
+
+}
+
+.survey {
+    width: 700px;
+    height: 915px;
+    font-size: 1rem;
+    background: rgb(96, 96, 156);
+    color: black;
+    top: 85%;
+    left: 55%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 30px 30px;
+}
+
+#title {
+    margin: 0px;
+    font-size: 40px;
+    margin-left: 45%;
+}
+
+#description {
+    text-align: center;
+    font-family: sans-serif;
+    font-style: italic;
+    font-size: 1.3rem;
+}
+
+#survey-form {
+    margin-top: 2rem;
+    padding: 10px;
+    text-align: center;
+}
+
+#name-label, #email-label, #number-label, p {
+    font-size: 0.9rem;
+    font-style: italic;
+    font-family: sans-serif;
+    padding: 0px;
+    font-weight: bold;
+}
+
+#name, #email, #number {
+    margin-top: 10px;
+    border: none;
+    border-bottom: 2px solid gray;
+    background: transparent;
+    height: 40px;
+    color: black;
+    font-size: 16px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+
+
+button {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: gray;
+    color: #fff;
+    margin-top: 15px;
+    font-size: 18px;
+    border-radius: 20px;
+    width: 100%;
+}
+
+button:hover {
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}
+
+textarea {
+    width: 80%;
+    border-radius: 15px;
+    border: 3px solid gray;
+    padding: 20px;
+}
+
+span {
+    font-size: 0.8rem;
+    font-family: sans-serif;
+}
+
+select {
+    width: 100%;
+    background-color: #fff;
+}

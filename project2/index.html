@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1 id="title">Survey Form</h1>
+    <div class="survey">  
+    <p id="description">Let us no how we can improve freeCodeCamp</p>
+    <form action="" id="survey-form">
+    <label for="name" id="name-label" >Enter your name</label><br>
+    <input type="text" id="name" placeholder="Enter your name"><br>
+    <label for="name" id="email-label">Enter your Email address</label><br>
+    <input type="text" pattern="/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/" id="email" placeholder="Enter your name">
+    <label for="" id="number-label">Enter your Number</label><br>
+    <input pattern="0-9" min="11" max="11" type="text" id="number" placeholder="Enter your name">
+    <br>
+    <p> Describe your current Role </p>
+    <select name="" id="dropdown">
+        <option value="student">Student</option>
+        <option value="graduate">Gradute</option>
+    </select>
+<br>
+    <p>How likely is that you would recommend a freeCodeCamp to a Friend? </p>
+    <input type="radio" selected><span>Definately</span>
+    <input type="radio"><span>Not Sure</span>
+    <input type="radio"><span>Not at all</span>
+<br>
+    <p>Things that should improve in the Future</p>
+    <input type="checkbox"><span>HTML</span>
+    <input type="checkbox"><span>Javascript</span>
+    <input type="checkbox"><span>Front-end-libraries</span>
+    <input type="checkbox"><span>Backend</span>
+<br>
+    <p>Do you have any Comment or Suggestions</p>
+    <textarea name="" id="" cols="30" rows="10">
+
+    </textarea>
+<br>
+    <button id="submit" value="Submit">Submit</button>
+</form>
+</div>
+</body>
+</html>

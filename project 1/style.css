@@ -1,0 +1,58 @@
+* {
+    margin: 40px;
+    margin-top: 30px;
+}
+
+#title {
+    text-align: center;
+}
+
+#name {
+    font-family: elephant;
+    font-weight: bold;
+    font-size: 40px;
+
+}
+
+#word {
+    font-family: arial;
+    font-style: italic;
+
+}
+
+#img-caption {
+    margin-top: 0px;
+    text-align: center;
+    font-family: arial;
+    font-style: italic;
+}
+
+#words {
+    text-align: justify;
+    margin: 20px;
+    font-family: arial;
+    font-size: 18px;
+    word-spacing: 7px;
+    line-height: 25px;
+
+}
+
+img {
+    float: center;
+    width: 100%;
+    margin-right: 20px;
+}
+
+span {
+    font-family: arial;
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+
+#info {
+    margin-top: 50px;
+    text-align: center;
+    font-family: elephant;
+    font-weight: bold;
+}
